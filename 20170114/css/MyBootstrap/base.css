@@ -1,0 +1,38 @@
+/*
+    我的基礎設定
+    所有標籤統一設定
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* reset css */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+header,
+footer,
+aside,
+article,
+section,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Droid Serif',"Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    word-spacing:  1px;
+    line-height: 1.5;
+}

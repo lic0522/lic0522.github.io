@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://source.unsplash.com/1024x768?");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    border: 5px solid black;
+    padding: 10px;
+    height: 300vh;
+    color: white;
+    background-image: url("https://source.unsplash.com/800x600?");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.underline {
+    width: 30px;
+    border-top: 3px solid;
+}
+
+.thumbnail {
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    border: 1px solid;
+    margin: 10px auto;
+}
+
+.thumbnail-img {
+    width: 100%;
+}
+
+blockquote {
+    border-left: 5px solid;
+    padding-left: 10px;
+    font-style: italic;
+}
