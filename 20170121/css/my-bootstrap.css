@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,a
+div,
+p,
+header,
+footer,
+aside,
+article,
+section blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.thumbnail {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.caption>h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.caption p {
+    font-size: 16px;
+}

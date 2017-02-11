@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+.iphone {
+    position: relative;
+    background-image: url(iPhone-6S-Silver.png);
+    background-position: -120px;
+    height: 600px;
+    width: 1200px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    position: absolute;
+    top: 489px;
+    left: 380px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3.2px solid gray;
+}
+
+.frame {
+    position: absolute;
+    top: 60px;
+    left: 280px;
+    width: 240px;
+    height: 480px;
+    border-radius: 30px;
+    border: 5px solid gray;
+}
+
+.screen {
+    position: absolute;
+    top: 105.6px;
+    left: 289px;
+    width: 222px;
+    height: 375px;
+    background-color: black;
+}
+
+.line {
+    position: absolute;
+    top: 85px;
+    left: 382px;
+    width: 35px;
+    height: 5px;
+    border-radius: 30px;
+    background-color: gray;
+    border: 2px solid #313131;
+}
+
+.dot1 {
+    position: absolute;
+    top: 70px;
+    left: 396px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 2px solid #313131;
+}
+
+.dot2 {
+    position: absolute;
+    top: 85px;
+    left: 352.5px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 2px solid #313131;
+}
+
+.power {
+    position: absolute;
+    top: 150px;
+    left: 515px;
+    width: 7px;
+    height: 30px;
+    border-radius: 20%;
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+.volume1 {
+    position: absolute;
+    top: 153px;
+    left: 277.5px;
+    width: 7px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+.volume2 {
+    position: absolute;
+    top: 193px;
+    left: 277.5px;
+    width: 7px;
+    height: 30px;
+    border-radius: 30%;
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+.switch {
+    position: absolute;
+    top: 108px;
+    left: 277.5px;
+    width: 6px;
+    height: 20px;
+    border-radius: 35%;
+    background-color: gray;
+    border: 2px solid gray;
+}

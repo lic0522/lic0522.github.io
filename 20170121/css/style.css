@@ -1,0 +1,88 @@
+.thumbnail {
+    width: calc(100%/4);
+    float: left;
+}
+
+nav li>ul {
+    display: none;
+}
+
+nav li:hover {
+    background-color: aliceblue
+}
+
+nav li:hover>ul {
+    display: block;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
+
+tr:nth-child(2) {
+    background-color: aqua;
+}
+
+.thumbnail:nth-child(8n+2),
+.thumbnail:nth-child(8n+3),
+.thumbnail:nth-child(8n+4),
+.thumbnail:nth-child(8n+5) {
+    background-color: aqua;
+}
+
+.thumbnail:first-child {
+    width: 100%;
+}
+
+.text:after {
+    content: "";
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid;
+}
+
+.text:before {
+    content: "";
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid;
+}
+
+.thumbnail2 {
+    position: relative;
+    width: 400px;
+}
+
+.thumbnail2:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    opacity: 0.5;
+    content: "";
+    display: block;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.thumbnail2:hover:after {
+    opacity: 0;
+}
+
+[id^="post-"] {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+}
+
+[href$=".jpg"] {
+    padding-left: 48px;
+    background-repeat: no-repeat;
+    background-size: 46px 37px;
+    line-height: 37px;
+    text-decoration: none;
+}
