@@ -1,0 +1,17 @@
+[class^="col-"] {
+    border: 1px solid;
+}
+
+.col {
+    width: 100%;
+    height: auto;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.img2 {
+    width: 100%;
+    border-radius: 50%;
+}
