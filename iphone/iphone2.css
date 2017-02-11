@@ -52,26 +52,37 @@
 
 .dot1-rear {
     position: absolute;
-    top: 70px;
-    left: 315px;
-    width: 23px;
-    height: 23px;
+    top: 68px;
+    left: 316px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.dot1-1-rear {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 21px;
+    height: 21px;
     border-radius: 50%;
     background-color: gray;
     border: 5px solid black;
 }
 
-.dot2-rear {
+.dot1-2-rear {
     position: absolute;
-    top: 77.5px;
-    left: 323px;
+    top: 2px;
+    left: 2px;
     width: 7px;
     height: 7px;
     border-radius: 50%;
     background-color: #0e089a;
 }
 
-.dot3-rear {
+.dot2-rear {
     position: absolute;
     top: 80px;
     left: 345px;
@@ -82,7 +93,7 @@
     border: 2px solid #313131;
 }
 
-.dot4-rear {
+.dot3-rear {
     position: absolute;
     top: 75px;
     left: 355px;
@@ -90,6 +101,25 @@
     height: 15px;
     border-radius: 30px;
     border: 2px solid #313131;
+}
+
+.line1-rear {
+    position: absolute;
+    top: 75px;
+    left: 355px;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+    border: 1px solid red;
+}
+
+.line2-rear {
+    position: absolute;
+    top: 75px;
+    left: 355px;
+    width: 15px;
+    border-radius: 30px;
+    border: 1px solid red;
 }
 
 .power-rear {
