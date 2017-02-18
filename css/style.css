@@ -1,48 +1,127 @@
-body {
-    background-image: url("https://source.unsplash.com/1024x768?");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-header {
-    border: 5px solid black;
-    padding: 5px;
-    padding-left: 20px;
-    height: 20vh;
-    color: white;
-    width: 100%;
-    background-image: url("../image/1372770224-3112244224.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.underline {
-    width: 100px;
-    border-top: 3px solid;
-}
-
-.thumbnail {
-    width: calc(33.33% - 20px);
-    padding: 10px;
-    border: 1px solid;
-    margin: 10px auto;
-}
-
-.thumbnail-img {
-    width: 100%;
-}
-
-blockquote {
-    border-left: 5px solid;
-    padding-left: 10px;
-    font-style: italic;
-}
-
-h1 {
-    padding-top: 10px;
-    padding-left: 30px;
-}
-
-h2 {
-    padding-left: 30px;
-}
+        [class^="col-"] {
+        border: 0px solid;
+    }
+    
+    [class^="col-"] img {
+        width: 100%;
+    }
+    
+    h1,
+    h2 {
+        padding: 0px 30px;
+    }
+    
+    nav {
+        padding: 0px 30px;
+        overflow: auto;
+    }
+    
+    nav>ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav>ul li {
+        list-style: none;
+        /*不看到項目前標點*/
+        float: left;
+        height: 50px;
+        width: 120px;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        font-size: 20px
+    }
+    
+    nav a:hover {
+        color: chocolate;
+        background-color: black;
+    }
+    
+    header {
+        color: white;
+        width: 100%;
+        background-image: url(../image/header.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    
+    section {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .box {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .box img {
+        border: 1px solid black;
+    }
+    
+    .text-item {
+        display: block;
+        /*區塊化*/
+        position: absolute;
+        overflow: hidden;
+        top: 10px;
+        left: 75%;
+        width: 40%;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        line-height: 45px;
+        color: white;
+        background-color: chocolate;
+        transform: rotate(45deg);
+        /*旋轉45度*/
+    }
+    /*overflow: auto;　//預設會自動使用捲軸
+overflow:visible;　 //顯示的文字或圖片會直接超出範圍，不使用捲軸。
+overflow:hidden;　//自動隱藏超出的文字或圖片。
+overflow:scroll;　//自動產生捲軸。
+overflow:inherit;　//繼承自父元素的可見性*/
+    
+    footer {
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .home277 {
+        width: 150px;
+        height: 40px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        padding: 10px;
+    }
+    
+    .home277 a {
+        font-size: 18px;
+        color: #ff4bce;
+        text-decoration: none;
+    }
+    
+    .home277 a:hover {
+        font-style: italic;
+        color: blue;
+    }
+    
+    .tst {
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+    }
+    
+    .img2 {
+        width: 100%;
+        border-radius: 50%;

@@ -4,10 +4,10 @@
 
 .iphone {
     position: relative;
-    background-image: url(iPhone-6S-Silver.png);
+    background-image: url(iPhone.png);
     background-position: -120px;
     height: 600px;
-    width: 1200px;
+    width: 530px;
     background-size: 500px;
     background-repeat: no-repeat;
 }
