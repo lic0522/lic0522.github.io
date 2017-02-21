@@ -94,6 +94,9 @@ overflow:inherit;　//繼承自父元素的可見性*/
             color: white;
             font-size: 20px;
             text-align: center;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
         }
         
         .home277 {
