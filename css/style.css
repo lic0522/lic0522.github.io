@@ -135,6 +135,7 @@ overflow:inherit;　//繼承自父元素的可見性*/
         #item-2 {
             border-radius: 5%;
         }
+        /*about 清單處理*/
         
         .text1 {
             text-align: left;
@@ -142,12 +143,18 @@ overflow:inherit;　//繼承自父元素的可見性*/
         
         .text1 li>ul {
             display: none;
+            background-color: aqua;
         }
         
         .text1 li:hover {
-            background-color: aliceblue
+            color: blue;
+            background-color: greenyellow;
         }
         
         .text1 li:hover>ul {
             display: block;
+        }
+        
+        .text ul {
+            border: 2px chocolate;
         }
