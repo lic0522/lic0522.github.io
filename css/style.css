@@ -158,3 +158,8 @@ overflow:inherit;　//繼承自父元素的可見性*/
         .text ul {
             border: 2px chocolate;
         }
+        
+        .sword-1 {
+            height: 450px;
+            width: 800px;
+        }
